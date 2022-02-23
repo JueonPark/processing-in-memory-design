@@ -1,5 +1,5 @@
 architecture:
-  version: 0.2
+  version: 0.3
   
   subtree:
   - name: System
@@ -16,8 +16,8 @@ architecture:
         word-bits: 8
         
     subtree:
-    - name: PE
-      
+    - name: LogicLayer
+
       local:
       - name: Buffer
         class: regfile
